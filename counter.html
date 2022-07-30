@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/counter.css">
+</head>
+<body>
+    <div class="content">
+        <h1>People entered:</h1>
+        <h2 id = "count-el">0</h2>
+        <button class = "increment" id = "increment-btn" onclick="increment()">Increment</button>
+        <button class = "decrement" id = "decrement-btn" onclick="decrement()">Decrement</button>
+        <div class="modify">
+
+            <button id = "reset-btn" onclick="reset()">Reset</button>
+            <button id = "delete-btn" onclick="del()">Delete</button>
+            <button class = "last" id = "last-btn" onclick="last()">Last Value</button>
+        </div>
+        
+        <button class = "save" id = "save-btn" onclick="save()">Save</button>
+        
+        <div class="scroll">
+            <p id = "save-el">Previous entries: </p>
+        </div>
+        
+    </div>
+    
+    <script src="JavaScript/counter.js"></script>
+</body>
+</html>

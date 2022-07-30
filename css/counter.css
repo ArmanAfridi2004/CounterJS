@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+}
+
+body .content {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .content ::-webkit-scrollbar {
+  width: 2em;
+}
+
+body .content ::-webkit-scrollbar-track {
+  background: #50a0f0;
+  border-radius: 100vw;
+}
+
+body .content ::-webkit-scrollbar-thumb {
+  background: cornsilk;
+  border-radius: 100vw;
+  border: 4px solid #5096ff;
+}
+
+body .content .scroll {
+  width: 13em;
+  overflow-x: scroll;
+  margin-left: 9em;
+  margin-top: 10px;
+}
+
+body .content .scroll p {
+  white-space: nowrap;
+  text-overflow: clip;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 25px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body h2 {
+  text-align: center;
+  font-weight: bolder;
+  margin-top: -10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body button {
+  font-weight: bold;
+  border-radius: 34px;
+  height: 3em;
+  width: 9em;
+  font-size: large;
+  cursor: pointer;
+  border-width: 10px;
+  margin-top: 10px;
+}
+
+body .increment {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  border-color: coral;
+  background-color: cornsilk;
+  margin-left: 9.2em;
+}
+
+body .decrement {
+  margin-left: 9.2em;
+  background-color: cornsilk;
+}
+
+body .save {
+  border-color: #5096ff;
+  background-color: cornsilk;
+  margin-left: 9.2em;
+}
+/*# sourceMappingURL=counter.css.map */
